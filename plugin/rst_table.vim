@@ -197,8 +197,8 @@ def CreateTable():
 
 EOF
 
-map ,,c :python CreateTable()<CR>
-map ,,f :python FixTable()<CR>
+map \\c :python CreateTable()<CR>
+map \\f :python FixTable()<CR>
 
 
 endif
